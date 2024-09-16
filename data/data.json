@@ -1,0 +1,117 @@
+[
+    {
+        "id":1,
+        "name":"Monstera DK Var (L)",
+        "image1":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-002_73f06399-2b36-48b7-b1fc-1526f32bb47c_800x.png?v=1704962823",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"325",
+        "ratings":85,
+        "category":"Gardening",
+        "details":"Monstera Deliciosa also called Finger philodendron growing green indoor plant.The Monstera plant is easy to keep and very decorative.This plant is a retro plant that has made a big comeback recently."
+    },
+    {
+        "id":2,
+        "name":"Monstera Deliciosa",
+        "image1":"https://happyflower.dk/wp-content/uploads/2022/05/Monstera-Deliciosa-Fingerphilodendron-Happyflower-dk-scaled-llimage-s550x0-q100.jpg",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"325",
+        "ratings":85,
+        "category":"Gardening",
+        "details":"Monstera Deliciosa also called Finger philodendron growing green indoor plant.The Monstera plant is easy to keep and very decorative.This plant is a retro plant that has made a big comeback recently."
+    },
+    {
+        "id":3,
+        "name":"Originated Fiddle fig",
+        "image1":"https://happyflower.dk/wp-content/uploads/2024/08/Opstammet-Violinfigen-Happyflower-dk-scaled-llimage-s550x0-q100.jpg",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"225",
+        "ratings":125,
+        "category":"Plants",
+        "details":"Monstera Deliciosa also called Finger philodendron growing green indoor plant.The Monstera plant is easy to keep and very decorative.This plant is a retro plant that has made a big comeback recently."
+    },
+    {
+        "id":4,
+        "name":"Monstera DK Var (L)",
+        "image1":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-002_73f06399-2b36-48b7-b1fc-1526f32bb47c_800x.png?v=1704962823",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"325",
+        "ratings":85,
+        "category":"Seeds",
+        "details":"Derived from Ficus Lyrata, also called Ficus Lyrata.This Ficus Lyrata is rooted and is 140-160 cm tall.It is of course possible to order your plant with or without a pot and saucer."
+    },
+    {
+        "id":5,
+        "name":"Racer",
+        "image1":"https://happyflower.dk/wp-content/uploads/2023/01/Vaeddeloeber-Happyflower-dk-scaled-llimage-s550x0-q100.jpg",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"325",
+        "ratings":85,
+        "category":"Plants",
+        "details":"Racer is a green houseplant that is very easy to care for.The plant can stand in most places and does not require much attention.Racer can be purchased with or without gray jar.Plastic pot is approx. 13 cm.Gray jar measures 15 cm. in diameter."
+    },
+    {
+        "id":6,
+        "name":"Love Tree (Star Leaf)",
+        "image1":"https://happyflower.dk/wp-content/uploads/2023/09/Kaerlighedstrae-Stjerneblad-Australsk-Kaerlighedstrae-Happyflower-dk-scaled-810x1080-llimage-s550x0-q100.jpg",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"325",
+        "ratings":85,
+        "category":"Bulbs",
+        "details":"Love Tree (Star Leaf) also called Australian Love Tree (Brachychiton in Latin).Light expression with star-shaped leaves with simple stem and characteristic green heart-shaped leaves. The love tree is grown in a patinated clay pot from our Danish gardener."
+    },
+    {
+        "id":7,
+        "name":"Stemmed Rubber tree 110-130 cm",
+        "image1":"https://happyflower.dk/wp-content/uploads/2022/05/Opstammet-Gummitrae-110-130-cm.-Happyflower-dk-scaled-llimage-s550x0-q100.jpg",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"325",
+        "ratings":85,
+        "category":"Seeds",
+        "details":"Stemmed Rubber tree 110-130 cm.A Rubber Tree is a very easy plant to have in your home.The rubber tree is approx. 110-130 cm. loud. Measured without gray jar.The plant has a built-in water meter that shows when the plant needs water. This makes it extra easy to care for the plant."
+    },
+    {
+        "id":8,
+        "name":"Scindapsus Pictus",
+        "image1":"https://happyflower.dk/wp-content/uploads/2022/08/Scindapsus-Pictus-Happyflower-dk-1-scaled-llimage-s550x0-q100.jpg",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"125",
+        "ratings":75,
+        "category":"Planters",
+        "details":"Scindapsus Pictus (Moonlight) is a green hanging/climbing plant which is very easy to care for.The plant likes to be kept bright and watered sparingly.Be careful with overwatering and do not water the plant when it is damp. Plastic pot is 15 cm. in diameter. Gray jar is 19 cm. in diameter."
+    },
+    {
+        "id":9,
+        "name":"Asparagus",
+        "image1":"https://happyflower.dk/wp-content/uploads/2022/08/Asparagus-Happyflower-dk--scaled-llimage-s550x0-q100.jpg",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"425",
+        "ratings":185,
+        "category":"Bulbs",
+        "details":"Asparagus is a green houseplant that is very easy to care for.The plant likes to be kept bright and watered sparingly.Asparagus can be bought with or without a gray jar.Plastic pot is approx. 12 cm.Gray jar measures 15 cm. in diameter."
+    },
+    {
+        "id":10,
+        "name":"Philodendron Scandens",
+        "image1":"https://happyflower.dk/wp-content/uploads/2024/08/Philodendron-Scandens-Happyflower-dk-scaled-llimage-s550x0-q100.jpg",
+        "image2":"https://greenify.dk/cdn/shop/files/Monstera-50-75cm-stueplante-001_800x.png?v=1700486721",
+        "image3":"https://greenify.dk/cdn/shop/files/Monstera-100-120cm-stueplante-007_800x.png?v=1700641533",
+        "price":"205",
+        "ratings":85,
+        "category":"Climbers",
+        "details":"Philodendron Scanden approx. 160 cm.Can be purchased with or without a jar.Philodendron Scandens is an incredibly easy and decorative plant to have in your home or office."
+    }
+]
+
+
+
+
+
