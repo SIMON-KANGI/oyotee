@@ -5,16 +5,18 @@ import Filter from './filter/filter';
 import Search from './filter/Search';
 import useDebounce from '../../hooks/useDebounce';
 import Sort from './filter/sort';
+
 function Home() {
     const [productList, setProductList] = useState([]);
     const [checkedCategories, setCheckedCategories] = useState([]); // Track selected categories
     const [input, setInput] = useState("");
-    const debouncedInput= useDebounce(input, 1000)
+    const debouncedInput = useDebounce(input, 1000);
     const [minPrice, setMinPrice] = useState(0); // Track min price
     const [maxPrice, setMaxPrice] = useState(1000); // Track max price
+    const [sortDirection, setSortDirection] = useState('asc'); // Track sort direction (asc or desc)
 
     const fetchProducts = () => {
-        axios.get('https://api.npoint.io/6ef2027c33bf364b1272')
+        axios.get('https://api.npoint.io/a8c1644990f9af983fc6')
             .then(response => {
                 setProductList(response.data);
             })
@@ -38,12 +40,13 @@ function Home() {
 
     // Handle price change
     const handlePriceChange = (min, max) => {
-      setMinPrice(min);
-      setMaxPrice(max);
-  };
-  const handleChange=(e)=>{
-    setInput(e.target.value);
-  }
+        setMinPrice(min);
+        setMaxPrice(max);
+    };
+
+    const handleChange = (e) => {
+        setInput(e.target.value);
+    };
 
     // Filter products based on search, price, and category
     const FilterProducts = productList.filter(product => {
@@ -55,6 +58,20 @@ function Home() {
         return filterPrice && searchName && filterCategory;
     });
 
+    // Sort products by price
+    const sortedProducts = FilterProducts.sort((a, b) => {
+        if (sortDirection === 'asc') {
+            return a.price - b.price; // Ascending order
+        } else {
+            return b.price - a.price; // Descending order
+        }
+    });
+
+    // Handle the sort direction change
+    const handleSort = (direction) => {
+        setSortDirection(direction); // Set the sort direction (asc or desc)
+    };
+
     return (
         <div className='flex'>
             <Filter
@@ -65,16 +82,18 @@ function Home() {
                 maxPrice={maxPrice}
             />
             <section>
-            <Search
-              input={input}
-              handleChange={handleChange}
-            />
-            <Sort/>
-               <Products
-                products={FilterProducts}
-            />
+                <Search
+                    input={input}
+                    handleChange={handleChange}
+                />
+                <Sort
+                    handleSort={handleSort} // Pass the sorting function
+                    currentSort={sortDirection} // Pass the current sort direction
+                />
+                <Products
+                    products={sortedProducts} // Display sorted products
+                />
             </section>
-           
         </div>
     );
 }
