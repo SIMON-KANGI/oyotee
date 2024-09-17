@@ -8,7 +8,7 @@ function FilterPrice({ handlePriceChange }) {
         const value = parseInt(e.target.value);
         if (value <= maxPrice) {
             setMinPrice(value);
-            handlePriceChange(value, maxPrice); // Pass both values back to the parent component
+            handlePriceChange(value, maxPrice); 
         }
     };
 
@@ -16,14 +16,14 @@ function FilterPrice({ handlePriceChange }) {
         const value = parseInt(e.target.value);
         if (value >= minPrice) {
             setMaxPrice(value);
-            handlePriceChange(minPrice, value); // Pass both values back to the parent component
+            handlePriceChange(minPrice, value); 
         }
     };
 
     const handleSliderChange = (e) => {
         const value = parseInt(e.target.value);
         setMaxPrice(value);
-        handlePriceChange(minPrice, value); // Sync the slider with the max price input
+        handlePriceChange(minPrice, value); 
     };
 
     return (
@@ -50,7 +50,7 @@ function FilterPrice({ handlePriceChange }) {
                     max="1000"
                     value={minPrice}
                     onChange={handleMinPriceChange}
-                    className="rounded-md px-3 py-3 text-center"
+                    className="rounded-md px-3 py-3 border border-gray-200 text-center"
                 />
 
                 {/* Maximum price input */}
@@ -61,7 +61,7 @@ function FilterPrice({ handlePriceChange }) {
                     max="1000"
                     value={maxPrice}
                     onChange={handleMaxPriceChange}
-                    className="rounded-md px-3 py-3 mx-4 text-center"
+                    className="rounded-md px-3 py-3 mx-4 border text-center"
                 />
             </div>
 
