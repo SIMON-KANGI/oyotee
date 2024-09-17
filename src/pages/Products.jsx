@@ -66,7 +66,7 @@ function Products({ products }) {
               </div>
 
               <div>
-                <h3 className='font-bold text-xl'>{product.name.slice(0,20)}</h3>
+                <h3 className='font-bold text-xl'>{product.name}</h3>
                 <div className='flex items-center my-2'>
                 {Array.from({ length: 5 }, (_, index) => (
  <span key={index} className='text-yellow-500'>
