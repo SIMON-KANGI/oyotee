@@ -44,7 +44,7 @@ function ProductDetails({ product, isOpen, onClose, AddToCart }) {
           <h1 className='mx-8'>Ratings</h1>
           </div>
   <div className='flex items-center'>
-  <button className='bg-gray-200 rounded-lg p-3 m-4'>
+  <button className='bg-red-100 rounded-lg p-3 m-4'>
     <RiHeart2Fill color="red" size="24px"/>
   </button>
       <button
